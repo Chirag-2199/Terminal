@@ -1,4 +1,3 @@
-
 'use client';
 
 import React, { useState, useEffect, useCallback } from 'react';
@@ -85,11 +84,12 @@ const TerminalPage = () => {
       if (!arg) return 'Missing directory name';
       const path = currentDir + '/' + arg;
       if (fileSystem[path]) return 'Directory already exists';
-      setFileSystem(prev => ({
-        ...prev,
-        [path]: [],
-        [currentDir]: [...(prev[currentDir] || []), arg],
-      }));
+      setFileSystem(prev => {
+        const newFileSystem = { ...prev };
+        newFileSystem[path] = [];
+        newFileSystem[currentDir] = [...(prev[currentDir] || []), arg];
+        return newFileSystem;
+      });
       return '';
     }
 
