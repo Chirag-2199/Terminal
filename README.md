@@ -78,8 +78,8 @@ You can navigate into directories, create new folders, and simulate reading or d
 ### 1. Clone this repo
 
 ```bash
-git clone https://github.com/your-username/terminal-portfolio.git
-cd terminal-portfolio
+git clone https://github.com/Chirag-2199/Terminal.git
+cd Terminal
 ```
 
 ### 2. Install dependencies
@@ -125,6 +125,17 @@ terminal-portfolio/
 - **Chirag Kumar**
 - [LinkedIn](https://www.linkedin.com/in/chirag2199/)
 - [GitHub](https://github.com/Chirag-2199)
+
+---
+
+## 🔧 Upcoming Features
+
+✨ **More terminal commands are coming soon!**  
+Such as:
+- `touch` to create a new file  
+- `echo` to write to a file  
+- `whoami`, `date`, and more fun Linux-style tricks  
+Stay tuned! 💻🚀
 
 ---
 
